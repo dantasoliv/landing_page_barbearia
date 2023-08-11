@@ -182,7 +182,7 @@
     justify-content: center;
     align-items: center;
     gap: 16px;
-    padding: 0 44px 34px 44px;
+    padding: 14px 44px 34px 44px;
 }
 
 .haircut{
@@ -256,6 +256,14 @@
     display: flex;
     gap: 8px;
     color: $white-normal;
+}
+
+.footer-icons a:hover{
+    
+    i{
+        color: $red-normal;
+        transition: color 0.4s;
+    }
 }
 
 //------------------------------
