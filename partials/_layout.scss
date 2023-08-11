@@ -236,3 +236,24 @@
 }
 
 //-----------------------------------
+
+// Footer ----------------------------
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 54px 0;
+    gap: 34px;
+    color: $white-normal;
+
+    p{
+        text-align: center;
+    }
+}
+
+.footer-icons{
+    display: flex;
+    gap: 8px;
+    color: $white-normal;
+}
