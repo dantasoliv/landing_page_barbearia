@@ -296,6 +296,16 @@ i {
   text-align: center;
 }
 
+.footer p a{
+  color: #fff;
+}
+
+footer p a:hover{
+  color: #d94140;
+  transition: .4s;
+  text-decoration: underline;
+}
+
 .footer-icons {
   display: flex;
   gap: 8px;
